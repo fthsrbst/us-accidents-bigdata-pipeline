@@ -1,0 +1,68 @@
+{
+  "model": "RandomForestClassifier",
+  "num_trees": 50,
+  "max_depth": 8,
+  "max_bins": 64,
+  "train_rows": 6181703,
+  "test_rows": 1546691,
+  "accuracy": 0.7992320379442306,
+  "f1_weighted": 0.716467113560555,
+  "precision_weighted": 0.7529370592069725,
+  "recall_weighted": 0.7992320379442306,
+  "training_time_seconds": 80.36994981765747,
+  "feature_importances": [
+    {
+      "feature": "Distance(mi)",
+      "importance": 0.47784221608092636
+    },
+    {
+      "feature": "Precipitation(in)",
+      "importance": 0.1553319939835213
+    },
+    {
+      "feature": "State_Index",
+      "importance": 0.0931446082996305
+    },
+    {
+      "feature": "Start_Lng",
+      "importance": 0.07708890570423767
+    },
+    {
+      "feature": "Weather_Condition_Index",
+      "importance": 0.06675165781186143
+    },
+    {
+      "feature": "Start_Lat",
+      "importance": 0.06656589602217396
+    },
+    {
+      "feature": "Pressure(in)",
+      "importance": 0.030540796970795144
+    },
+    {
+      "feature": "Wind_Speed(mph)",
+      "importance": 0.019587882038976264
+    },
+    {
+      "feature": "Temperature(F)",
+      "importance": 0.004350610282728414
+    },
+    {
+      "feature": "Visibility(mi)",
+      "importance": 0.003765464681970603
+    },
+    {
+      "feature": "Humidity(%)",
+      "importance": 0.0025759432466248267
+    },
+    {
+      "feature": "Civil_Twilight_Index",
+      "importance": 0.0018148563176313844
+    },
+    {
+      "feature": "Sunrise_Sunset_Index",
+      "importance": 0.0006391685589221059
+    }
+  ],
+  "timestamp": "2025-12-19T23:33:18.810352"
+}
