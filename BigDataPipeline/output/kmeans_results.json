@@ -1,0 +1,117 @@
+{
+  "algorithm": "K-Means",
+  "timestamp": "2025-12-22T18:18:44.842506",
+  "optimal_k": 8,
+  "silhouette_score": 0.734,
+  "elbow_analysis": [
+    {
+      "k": 3,
+      "silhouette": 0.6979,
+      "wssse": 209830.17
+    },
+    {
+      "k": 4,
+      "silhouette": 0.6746,
+      "wssse": 159510.65
+    },
+    {
+      "k": 5,
+      "silhouette": 0.6994,
+      "wssse": 103567.13
+    },
+    {
+      "k": 6,
+      "silhouette": 0.6981,
+      "wssse": 83525.29
+    },
+    {
+      "k": 7,
+      "silhouette": 0.6249,
+      "wssse": 82299.46
+    },
+    {
+      "k": 8,
+      "silhouette": 0.734,
+      "wssse": 45508.11
+    },
+    {
+      "k": 9,
+      "silhouette": 0.6882,
+      "wssse": 54936.11
+    }
+  ],
+  "cluster_statistics": [
+    {
+      "cluster": 0,
+      "count": 60509,
+      "center": {
+        "lat": 33.9027,
+        "lng": -117.0427
+      },
+      "avg_severity": 2.18
+    },
+    {
+      "cluster": 1,
+      "count": 73551,
+      "center": {
+        "lat": 40.3513,
+        "lng": -76.1889
+      },
+      "avg_severity": 2.27
+    },
+    {
+      "cluster": 2,
+      "count": 16494,
+      "center": {
+        "lat": 45.7129,
+        "lng": -120.8615
+      },
+      "avg_severity": 2.19
+    },
+    {
+      "cluster": 3,
+      "count": 41827,
+      "center": {
+        "lat": 27.3755,
+        "lng": -81.2324
+      },
+      "avg_severity": 2.14
+    },
+    {
+      "cluster": 4,
+      "count": 68826,
+      "center": {
+        "lat": 35.0298,
+        "lng": -83.3206
+      },
+      "avg_severity": 2.21
+    },
+    {
+      "cluster": 5,
+      "count": 38284,
+      "center": {
+        "lat": 42.4295,
+        "lng": -89.5382
+      },
+      "avg_severity": 2.32
+    },
+    {
+      "cluster": 6,
+      "count": 46656,
+      "center": {
+        "lat": 38.4323,
+        "lng": -118.9232
+      },
+      "avg_severity": 2.16
+    },
+    {
+      "cluster": 7,
+      "count": 40569,
+      "center": {
+        "lat": 30.945,
+        "lng": -94.9342
+      },
+      "avg_severity": 2.21
+    }
+  ]
+}

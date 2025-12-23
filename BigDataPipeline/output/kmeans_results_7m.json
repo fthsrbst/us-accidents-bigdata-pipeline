@@ -1,0 +1,126 @@
+{
+  "algorithm": "K-Means",
+  "timestamp": "2025-12-22T18:39:09.663624",
+  "data_size": 7728394,
+  "optimal_k": 10,
+  "silhouette_score": 0.7385,
+  "elbow_analysis": [
+    {
+      "k": 4,
+      "silhouette": 0.6558,
+      "wssse": 3311456.71
+    },
+    {
+      "k": 6,
+      "silhouette": 0.7085,
+      "wssse": 1667098.63
+    },
+    {
+      "k": 8,
+      "silhouette": 0.7322,
+      "wssse": 1106553.03
+    },
+    {
+      "k": 10,
+      "silhouette": 0.7385,
+      "wssse": 665184.04
+    },
+    {
+      "k": 12,
+      "silhouette": 0.7304,
+      "wssse": 543343.61
+    }
+  ],
+  "cluster_statistics": [
+    {
+      "cluster": 0,
+      "count": 288452,
+      "center": {
+        "lat": 38.077,
+        "lng": -98.1509
+      },
+      "avg_severity": 2.32
+    },
+    {
+      "cluster": 1,
+      "count": 1208345,
+      "center": {
+        "lat": 33.9006,
+        "lng": -117.0432
+      },
+      "avg_severity": 2.18
+    },
+    {
+      "cluster": 2,
+      "count": 673361,
+      "center": {
+        "lat": 38.6887,
+        "lng": -79.3095
+      },
+      "avg_severity": 2.31
+    },
+    {
+      "cluster": 3,
+      "count": 328682,
+      "center": {
+        "lat": 45.6944,
+        "lng": -120.8956
+      },
+      "avg_severity": 2.18
+    },
+    {
+      "cluster": 4,
+      "count": 836137,
+      "center": {
+        "lat": 27.3761,
+        "lng": -81.2311
+      },
+      "avg_severity": 2.14
+    },
+    {
+      "cluster": 5,
+      "count": 811998,
+      "center": {
+        "lat": 30.9424,
+        "lng": -94.9624
+      },
+      "avg_severity": 2.2
+    },
+    {
+      "cluster": 6,
+      "count": 832152,
+      "center": {
+        "lat": 38.3073,
+        "lng": -120.4277
+      },
+      "avg_severity": 2.14
+    },
+    {
+      "cluster": 7,
+      "count": 964721,
+      "center": {
+        "lat": 41.1108,
+        "lng": -74.8877
+      },
+      "avg_severity": 2.25
+    },
+    {
+      "cluster": 8,
+      "count": 1159542,
+      "center": {
+        "lat": 34.705,
+        "lng": -82.5718
+      },
+      "avg_severity": 2.2
+    },
+    {
+      "cluster": 9,
+      "count": 625004,
+      "center": {
+        "lat": 43.143,
+        "lng": -89.2524
+      },
+      "avg_severity": 2.3
+    }
+  ]
+}

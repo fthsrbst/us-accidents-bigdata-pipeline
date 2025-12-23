@@ -1,0 +1,22 @@
+{
+  "pipeline": "US Accidents Big Data Pipeline",
+  "timestamp": "2025-12-22T18:18:44.917127",
+  "sample_fraction": 0.05,
+  "classification": {
+    "model": "RandomForest",
+    "accuracy": 0.7963,
+    "f1_score": 0.7075
+  },
+  "clustering": {
+    "algorithm": "K-Means",
+    "optimal_k": 8,
+    "silhouette": 0.734
+  },
+  "output_files": [
+    "cleaned_data/ (parquet)",
+    "cleaned_sample.csv",
+    "random_forest_results.json",
+    "kmeans_results.json",
+    "clustered_sample.csv"
+  ]
+}

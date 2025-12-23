@@ -1,0 +1,108 @@
+{
+  "algorithm": "K-Means",
+  "timestamp": "2025-12-22T18:32:42.145011",
+  "data_size": 2002337,
+  "optimal_k": 8,
+  "silhouette_score": 0.7342,
+  "elbow_analysis": [
+    {
+      "k": 4,
+      "silhouette": 0.6935,
+      "wssse": 789371.39
+    },
+    {
+      "k": 6,
+      "silhouette": 0.6525,
+      "wssse": 461851.03
+    },
+    {
+      "k": 8,
+      "silhouette": 0.7342,
+      "wssse": 235562.11
+    },
+    {
+      "k": 10,
+      "silhouette": 0.6967,
+      "wssse": 198979.76
+    },
+    {
+      "k": 12,
+      "silhouette": 0.7231,
+      "wssse": 150713.92
+    }
+  ],
+  "cluster_statistics": [
+    {
+      "cluster": 0,
+      "count": 239031,
+      "center": {
+        "lat": 38.432,
+        "lng": -118.9197
+      },
+      "avg_severity": 2.16
+    },
+    {
+      "cluster": 1,
+      "count": 197989,
+      "center": {
+        "lat": 42.4361,
+        "lng": -89.5546
+      },
+      "avg_severity": 2.32
+    },
+    {
+      "cluster": 2,
+      "count": 210797,
+      "center": {
+        "lat": 30.9458,
+        "lng": -94.9347
+      },
+      "avg_severity": 2.2
+    },
+    {
+      "cluster": 3,
+      "count": 217107,
+      "center": {
+        "lat": 27.3767,
+        "lng": -81.2314
+      },
+      "avg_severity": 2.14
+    },
+    {
+      "cluster": 4,
+      "count": 357116,
+      "center": {
+        "lat": 35.0237,
+        "lng": -83.3251
+      },
+      "avg_severity": 2.21
+    },
+    {
+      "cluster": 5,
+      "count": 313597,
+      "center": {
+        "lat": 33.9054,
+        "lng": -117.0447
+      },
+      "avg_severity": 2.18
+    },
+    {
+      "cluster": 6,
+      "count": 381482,
+      "center": {
+        "lat": 40.3466,
+        "lng": -76.193
+      },
+      "avg_severity": 2.27
+    },
+    {
+      "cluster": 7,
+      "count": 85218,
+      "center": {
+        "lat": 45.705,
+        "lng": -120.8792
+      },
+      "avg_severity": 2.18
+    }
+  ]
+}
